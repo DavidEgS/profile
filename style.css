@@ -41,6 +41,31 @@ a {
   text-align: center;
 }
 
+.greeting {
+  padding: 8px;
+  font-size: 32px;
+}
+
+.french {
+  position: relative;
+  visibility: hidden;
+}
+
+
+.english {
+  position: absolute;
+  z-index: 5;
+  width: 700px;
+}
+
+.english:hover {
+  visibility: hidden;
+}
+
+.english:hover + .french {
+  visibility: visible;
+}
+
 .container {
   width: 100vw;
   display: flex;
