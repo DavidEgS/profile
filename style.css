@@ -99,7 +99,7 @@ a {
 }
 
 .social:hover {
-  background-color: rgb(40,40,40);
+  transform: scale(1.1);
 }
 
 
